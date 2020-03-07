@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.Client" Version="5.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CondominioService.BuildingBlocks.Data.MongoDB\CondominioService.BuildingBlocks.Data.MongoDB.csproj" />
+    <ProjectReference Include="..\CondominioService.Core\CondominioService.Core.csproj" />
+  </ItemGroup>
+
+</Project>
