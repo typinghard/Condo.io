@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{628CED93-2B36-408D-93DD-70B6D618BF8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Votacao", "Votacao", "{4B219FAD-0856-4E92-AC4E-4091A65ED554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agenda", "Agenda", "{F030C2AE-5E35-4097-ACA2-77341D8E85AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Denuncia", "Denuncia", "{2ABA0AAD-4E13-48D4-902A-2CB391FC38DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{00A63A63-B76A-48B2-A1CB-1FEB05A2110D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastros", "Cadastros", "{DD5E6E1B-8ED3-4EB3-A57E-6BCEA94A61C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{63F889B7-C3CB-4537-B78A-B86E8B1FE958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioService.Denuncia.Application", "CondominioService\CondominioService.Denuncia.Application\CondominioService.Denuncia.Application.csproj", "{402F9974-AF7B-4125-8910-ED6ADAEF285B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402F9974-AF7B-4125-8910-ED6ADAEF285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402F9974-AF7B-4125-8910-ED6ADAEF285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402F9974-AF7B-4125-8910-ED6ADAEF285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402F9974-AF7B-4125-8910-ED6ADAEF285B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B219FAD-0856-4E92-AC4E-4091A65ED554} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{F030C2AE-5E35-4097-ACA2-77341D8E85AF} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{2ABA0AAD-4E13-48D4-902A-2CB391FC38DF} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{00A63A63-B76A-48B2-A1CB-1FEB05A2110D} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{DD5E6E1B-8ED3-4EB3-A57E-6BCEA94A61C5} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{63F889B7-C3CB-4537-B78A-B86E8B1FE958} = {628CED93-2B36-408D-93DD-70B6D618BF8C}
+		{402F9974-AF7B-4125-8910-ED6ADAEF285B} = {2ABA0AAD-4E13-48D4-902A-2CB391FC38DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88474B38-E31C-4CBE-9EBD-4CDA3A8A7E78}
+	EndGlobalSection
+EndGlobal
